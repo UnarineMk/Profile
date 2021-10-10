@@ -35,6 +35,7 @@
   --mb-4: 2rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
+  --mb-7: 5rem;
 }
 /*===z -index ====*/
 :root {
@@ -211,11 +212,14 @@ img {
 }
 .homework {
   align-self: center;
+  text-align: center;
+  justify-content: center;
 }
 .htitle {
   font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
+  margin-bottom: var(--mb-7);
   color: var(--col-color);
+  width: 100%;
 }
 
 .htitlecolor {
