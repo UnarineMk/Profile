@@ -477,6 +477,7 @@ footer-title {
   }
   .htitle {
     z-index: 99;
+    margin-bottom: 15px;
   }
   .hsocial {
     padding-top: 0;
