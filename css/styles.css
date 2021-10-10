@@ -210,6 +210,8 @@ img {
 }
 .homework {
   align-self: center;
+  z-index: 100;
+  margin-bottom: 10px;
 }
 .htitle {
   font-size: var(--big-font-size);
