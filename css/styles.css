@@ -475,6 +475,9 @@ footer-title {
   .homework {
     align-self: flex-end;
   }
+  .htitle {
+    z-index: 88;
+  }
   .hsocial {
     padding-top: 0;
     padding-bottom: 2.5rem;
