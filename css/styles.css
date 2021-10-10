@@ -140,7 +140,6 @@ img {
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
-  z-index: 1000;
 }
 @media screen and (max-width: 768px) {
   .navmenu {
@@ -208,6 +207,7 @@ img {
   height: calc(100vh - 3rem);
   row-gap: 2rem;
   background-color: black;
+  margin-bottom: 10px;
 }
 .homework {
   align-self: center;
