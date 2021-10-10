@@ -211,7 +211,6 @@ img {
 }
 .homework {
   align-self: center;
-  margin-bottom: 10px;
 }
 .htitle {
   font-size: var(--big-font-size);
@@ -242,6 +241,7 @@ img {
   right: 0;
   bottom: 0;
   width: 285px;
+  margin-top: 20px;
 }
 /*buttons*/
 
@@ -493,6 +493,7 @@ footer-title {
     width: 457px;
     bottom: 15%;
     z-index: 89;
+    margin-top: 15px;
   }
 
   .aboutcontainer,
