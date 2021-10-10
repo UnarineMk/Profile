@@ -1,0 +1,289 @@
+/** =============================================================================================
+body index part
+===============================================================================================**/
+#bodyindex{
+  background-color: black;
+background-image:url("../background/hashtagcoffee.jpg");
+width: 100%;
+height:50%;
+background-repeat:no-repeat;
+background-attachment: fixed;  
+background-size: 70% 150%;
+
+}
+
+/** =============================================================================================
+body about part
+===============================================================================================**/
+#about-head{
+background-color: black;
+background-image:url("../background/orangeleaves.jpg");
+width: 100%;
+height:50%;
+background-repeat:no-repeat;
+background-attachment: fixed;  
+background-size: 70% 150%;
+}
+/** =============================================================================================
+header part
+===============================================================================================**/
+#header {
+  height: 80px;
+  transition: all 0.5s;
+  z-index: 1000;
+  transition: all 0.5s;
+  background: #052c3f;
+}
+
+#header.header-transparent {
+  background: none;
+}
+
+#header.header-scrolled {
+  background: rgba(5, 44, 63, 0.8);
+  height: 60px;
+}
+
+#header.mylogo h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#header .mylogo h1 a, #header .logo h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#header .mylogo img {
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
+}
+
+@media (max-width: 768px) {
+  #header {
+    height: 60px;
+  }
+  #header .logo h1 {
+    font-size: 28px;
+  }
+}
+#Name{margin-left: 1.0ch;
+text-decoration: none;
+}
+
+#Name a{
+  text-decoration: none;
+  float:right;
+  margin-right: 10px;
+}
+#mylogo{position: fixed;
+  margin-left:0ch;
+  padding-left: 4ch;
+  background-color: blanchedalmond;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+
+}
+/** =============================================================================================
+sidebarmenu button-home part
+===============================================================================================**/
+.sidebar a {
+  display: block;
+  position: relative;
+  color: #fff;
+  padding:10px;
+  transition: 0.3s;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+  .sidebar{
+    margin: 300px;
+    padding: 300px;
+    list-style: none;
+  position: absolute;
+  display:flex;
+  color: blanchedalmond;
+  
+}
+#Sidebar{
+  background-color: #85b0be;
+  z-index: 1000;
+}
+.menu{
+  color:black;
+  background-color: azure;
+  width:5ch;
+  height:1ch;
+  margin-left:0.1ch;
+  margin-top:1.3ch;
+  z-index: 999;
+  margin-left: 2px;
+}
+
+
+
+         /** =============================================================================================
+topic sec-topic & topic1
+===============================================================================================**/
+.sec-topic {border: 2px solid blanchedalmond;
+  transition: 0.3s;
+  width: 70%;
+  margin-left:auto;
+    margin-right:auto;}
+  .sec-topic:hover{
+    border: 3px solid #85b0be;
+    box-shadow: 0 4px 4px 0 #85b0be;
+  } 
+  #topicbody{
+    background-color: black;
+    background-image:url("../background/hands.jpg");
+    background-repeat:no-repeat;
+    background-size: 70% 100%;
+    display:absolute;
+    background-attachment: fixed;
+    z-index: -1;}
+    #topic1 ul li{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+     font-style: italic;
+     font-size: large;
+     color:blanchedalmond; 
+     padding: 3px;
+     margin: 38px;
+    }
+  #topics{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-style: italic;
+    font-size: 40pt;
+    color:#85b0be; 
+    margin-left:auto;
+    margin-right:auto;
+  }
+  #topics :hover{
+    color: blanchedalmond;
+
+  }
+  b{color: #85b0be;}
+  .menu{position: fixed;}
+           /** =============================================================================================
+prayer 
+===============================================================================================**/
+#prayerbody{
+  background-color: black;
+  background-image:url("../background/prayer.jpg");
+  background-repeat:no-repeat;
+  background-size: 70% 100%;
+  display:absolute;
+background-attachment: fixed;}
+#prayer1 ul li{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 20px;
+  line-height: 30px;
+  color:black; 
+  padding: 3px;
+  margin: 38px;
+ }
+ p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-style: italic;
+  font-size: 19pt;
+  color:black; 
+  padding: 3px;
+  margin: 38px;}
+#prayer{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+ font-style: italic;
+ font-size: 40pt;
+ color:black;
+ margin-left:auto;
+ margin-right:auto;
+}
+#prayer:hover{
+ color:#85b0be;
+
+}
+
+  .sec-prayer:hover{
+    border: 3px solid #85b0be;
+    box-shadow: 0 4px 4px 0 #85b0be;
+  } 
+.sec-prayer {
+  transition: 0.9s;
+  width: 70%;
+  margin-left:30%;
+  margin-right:auto;
+  background-color:blanchedalmond;
+  opacity:74%;
+  z-index:-100;}
+
+/** =============================================================================================
+media
+===============================================================================================**/
+@media screen and (max-width:768px) {
+  .sidebar a {
+    display: block;
+    position: relative;
+    color: #fff;
+    padding:10px;
+    transition: 0.3s;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+    .sidebar{
+      margin: 300px;
+      padding: 300px;
+      list-style: none;
+    position: absolute;
+    display:flex;
+    color: blanchedalmond;
+   
+    
+  }
+  #Sidebar{
+    background-color:grey;
+    z-index: 1000;
+  }
+  .menu{
+    color:black;
+    background-color: azure;
+    width:5ch;
+    height:0.5ch;
+    margin-left:0.1ch;
+    margin-top:0.3ch;
+    z-index: 999;
+    margin-left: 2px;
+  }
+    
+    #Name a{
+      text-decoration: none;
+      float:right;
+      margin-right: 10px;
+      font-size:20px;
+    }
+    #Name{
+      height: 2ch;
+    }
+
+    #prayer ul {
+      padding:1px
+    }
+    .sec-prayer {
+      transition: 0.9s;
+      width: 100%;
+      margin-left:0%;
+      margin-right:auto;
+      background-color:blanchedalmond;
+      opacity:74%;
+      z-index:-100;}
+}

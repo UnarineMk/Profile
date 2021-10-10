@@ -1,0 +1,156 @@
+
+  .container-fluid{position:relative;
+    left:0px;
+  right:0px;
+z-index: inherit -1;}
+.w3-darkred{background-color:rgb(80, 21, 21);}
+.text{
+text-align: center;
+color: whitesmoke;
+font-size: 160px;
+top:0;
+         bottom: 0;
+         left:0;
+         right:0;
+         transform: translate(0%, -0%);}
+         .w3-card{border: black 2px;}
+         body{
+            background-size:70% 100%;
+            display:relative;}
+.logo{display: block;
+    margin-left:auto;
+    margin-right:auto;
+width: 300px;
+height:250px}
+.mining{display:absolute;
+width: 100%;height:60%;
+left:0px;right:0px;
+z-index: inherit -1;}
+.overlay{position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    height: 100%;
+    width:100%;
+    opacity: 0.8;
+    transition: .5s ease;
+    background-color:rgba(255, 255, 255, 0.185)}
+    hover.mining{opacity:0.8;}
+    footer{background-color:rgb(80, 21, 21);margin-bottom:0px;bottom: 0px;
+    width:100%;
+  display:block;position:static}
+    .main{width:100%;height:70%}
+    .Sidebar{padding-top:0px;margin-top:0px;
+        background:darkred;border: none;
+        width:20px;height: 20px}
+    .fa,.far,.fab,.fas{padding: 20px;
+            font-size: 30px;
+            width:auto;
+            text-align:center;
+            text-decoration: none;
+            margin: 5px 2px;}
+    a:hover{background-color:grey;};
+    a{
+        color: black;align-content: center;
+    font-size: 30px;
+    font-family: garamond;
+    text-decoration: none;
+      display: inline-block;
+    padding: 10px;
+    background-color: darkred;
+    font-family:garamond;
+   color: black;border: none;}
+ .bg-1{background-color: black}
+ 
+ .card1{box-shadow: 0 2px 4px 0 rgb(80, 21, 21);
+    transition: 0.3s;
+    width: 70%;
+    margin-left:auto;
+      margin-right:auto;}
+    .card1:hover {
+    box-shadow: 0 7px 15px 0 rgb(80, 21, 21);}
+    .container {
+    padding: 2px 16px;
+    color: white;}
+    p,ul,h4{font-family: Georgia;font-size:xx-large;}
+    h1{font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    background-color:rgb(80, 21, 21);
+    color:white;
+  border-bottom-right-radius:440%;
+border-top-right-radius: 440%;
+border-bottom-left-radius: 10%;
+border-top-left-radius: 10%;
+border: 2px;
+margin-left:auto;
+      margin-right:auto;}
+    .slo{font-size: 150px;}
+
+
+
+
+    /*===========media=============*/
+
+@media screen and (max-width:768px){
+.w3-bar-item{
+  font-size: 10px;
+}
+
+  .logo{
+    width: 120px;
+    height: 90px;
+  }
+  p,ul,h4{font-family: Georgia;font-size:medium;}
+    h1{font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;}
+    logo{display: block;
+      margin-left:auto;
+      margin-right:auto;
+  width: 180px;
+  height:90px}
+  .pic{width: 100%;
+  height:230px}
+  .card1{width:100%}
+  .fa,.far,.fab,.fas{padding: 2px;
+    padding-bottom: px;
+    font-size: 9px;
+    width:auto;
+    text-align:right;
+    text-decoration: none;
+    margin: 2px 2px;}
+    .text{
+      width:100%;
+      text-align: center;
+      color:whitesmoke;
+      font-size: 35px;}
+      footer{background-color:rgb(80, 21, 21);
+        margin-bottom:0px; 
+        bottom: 0px;
+        width:100%;
+        position: fixed;
+      display:block;position:static}
+      .container1{box-shadow: 0 2px 4px 0 white;
+        transition: 0.3s;
+        width: 70%;
+        margin-bottom: auto;
+        margin-top: auto;
+        margin-left:auto;
+          margin-right:auto;
+        background-color:rgb(80, 21, 21);
+        height:500px;
+        color:black;}
+        .container2{box-shadow: 0 2px 4px 0 white;
+          transition: 0.3s;
+          width: 75%;
+          margin-bottom: auto;
+          margin-top: auto;
+          margin-left:auto;
+            margin-right:auto;
+          background-color:rgb(80, 21, 21);
+          height:650px;
+          color:black;}
+        .slo{font-size:40px
+  
+}
+}
