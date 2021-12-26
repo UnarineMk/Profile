@@ -1,28 +1,27 @@
 /** =============================================================================================
 body index part
 ===============================================================================================**/
-#bodyindex{
+#bodyindex {
   background-color: black;
-background-image:url("../background/hashtagcoffee.jpg");
-width: 100%;
-height:50%;
-background-repeat:no-repeat;
-background-attachment: fixed;  
-background-size: 70% 150%;
-
+  background-image: url("../background/hashtagcoffee.jpg");
+  width: 100%;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 70% 150%;
 }
 
 /** =============================================================================================
 body about part
 ===============================================================================================**/
-#about-head{
-background-color: black;
-background-image:url("../background/orangeleaves.jpg");
-width: 100%;
-height:50%;
-background-repeat:no-repeat;
-background-attachment: fixed;  
-background-size: 70% 150%;
+#about-head {
+  background-color: black;
+  background-image: url("../background/orangeleaves.jpg");
+  width: 100%;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 70% 150%;
 }
 /** =============================================================================================
 header part
@@ -30,13 +29,7 @@ header part
 #header {
   height: 80px;
   transition: all 0.5s;
-  z-index: 1000;
-  transition: all 0.5s;
   background: #052c3f;
-}
-
-#header.header-transparent {
-  background: none;
 }
 
 #header.header-scrolled {
@@ -54,7 +47,8 @@ header part
   text-transform: uppercase;
 }
 
-#header .mylogo h1 a, #header .logo h1 a:hover {
+header .mylogo h1 a,
+#header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -73,23 +67,19 @@ header part
     font-size: 28px;
   }
 }
-#Name{margin-left: 1.0ch;
-text-decoration: none;
-}
-
-#Name a{
+#Name {
+  margin-left: 25ch;
   text-decoration: none;
-  float:right;
-  margin-right: 10px;
+  text-decoration-line: none;
+  cursor: pointer;
 }
-#mylogo{position: fixed;
-  margin-left:0ch;
+#mylogo {
+  position: fixed;
+  margin-left: 0ch;
   padding-left: 4ch;
   background-color: blanchedalmond;
   width: 100%;
-  height: auto;
   z-index: 100;
-
 }
 /** =============================================================================================
 sidebarmenu button-home part
@@ -98,192 +88,503 @@ sidebarmenu button-home part
   display: block;
   position: relative;
   color: #fff;
-  padding:10px;
+  padding: 10px;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
 }
-  .sidebar{
-    margin: 300px;
-    padding: 300px;
-    list-style: none;
+.sidebar {
+  margin: 300px;
+  padding: 300px;
+  list-style: none;
   position: absolute;
-  display:flex;
-  color: blanchedalmond;
-  
+  display: flex;
+  color: white;
 }
-#Sidebar{
+#Sidebar {
   background-color: #85b0be;
-  z-index: 1000;
+  display: block;
+  position: absolute;
+  z-index: 101;
 }
-.menu{
-  color:black;
+.menu {
+  color: black;
   background-color: azure;
-  width:5ch;
-  height:1ch;
-  margin-left:0.1ch;
-  margin-top:1.3ch;
-  z-index: 999;
-  margin-left: 2px;
+  width: 5ch;
+  height: 1ch;
+  margin-left: 0.5ch;
+  margin-top: 2.3ch;
+  z-index: 101;
+}
+/* ===============Navigation bar================== */
+.navbar {
+  background-color: black;
+}
+.navbar-nav {
+  margin-left: 7px;
+}
+.logo {
+  background-color: red;
+  margin-right: 5px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+.paintivity {
+  color: var(--col2);
+  cursor: pointer;
 }
 
+.navbar {
+  background-color: blanchedalmond;
+  color: black;
+}
+.navbar-nav {
+  margin-left: 350px;
+}
+.nav-link {
+  padding-left: 0px;
+  cursor: pointer;
+  color: black;
+}
+.nav-item {
+  width: 150px;
+  color: black;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+.nav-link:hover {
+  color: #85b0be;
+  text-transform: capitalize;
+}
 
+/** =============================================================================================
+sec-home part
+===============================================================================================**/
+#sec-home2 {
+  width: 100%;
+  height: 80vh;
+  background-color: transparent;
+  background-size: cover;
+  position: absolute;
+  padding-top: 1ch;
+  margin-top: 4ch;
+}
 
-         /** =============================================================================================
+#sec-home2:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#sec-home2 .con-home2 {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+}
+
+#sec-home2 h1 {
+  margin: 0 0 15px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: blanchedalmond;
+}
+
+#sec-home2 h2 {
+  color: blanchedalmond;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+#sec-home2 .btn-get {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  border: 2px solid #85b0be;
+  color: #fff;
+}
+
+#sec-home2 .btn-get:hover {
+  background: #85b0be;
+  border: 2px solid #85b0be;
+}
+
+@media (min-width: 1024px) {
+  #sec-home2 {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #sec-home2 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #sec-home2 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/** =============================================================================================
 topic sec-topic & topic1
 ===============================================================================================**/
-.sec-topic {border: 2px solid blanchedalmond;
+.sec-topic {
+  border: 2px solid blanchedalmond;
   transition: 0.3s;
   width: 70%;
-  margin-left:auto;
-    margin-right:auto;}
-  .sec-topic:hover{
-    border: 3px solid #85b0be;
-    box-shadow: 0 4px 4px 0 #85b0be;
-  } 
-  #topicbody{
-    background-color: black;
-    background-image:url("../background/hands.jpg");
-    background-repeat:no-repeat;
-    background-size: 70% 100%;
-    display:absolute;
-    background-attachment: fixed;
-    z-index: -1;}
-    #topic1 ul li{
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-     font-style: italic;
-     font-size: large;
-     color:blanchedalmond; 
-     padding: 3px;
-     margin: 38px;
-    }
-  #topics{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    font-style: italic;
-    font-size: 40pt;
-    color:#85b0be; 
-    margin-left:auto;
-    margin-right:auto;
-  }
-  #topics :hover{
-    color: blanchedalmond;
-
-  }
-  b{color: #85b0be;}
-  .menu{position: fixed;}
-           /** =============================================================================================
+  margin-left: auto;
+  margin-right: auto;
+}
+.sec-topic:hover {
+  border: 3px solid #85b0be;
+  box-shadow: 0 4px 4px 0 #85b0be;
+}
+#topicbody {
+  background-color: black;
+  background-image: url("../background/hands.jpg");
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+  display: absolute;
+  background-attachment: fixed;
+  z-index: -1;
+}
+#topic1 ul li {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-size: large;
+  color: blanchedalmond;
+  padding: 3px;
+  margin: 38px;
+}
+#topics {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 40pt;
+  color: #85b0be;
+  margin-left: auto;
+  margin-right: auto;
+}
+#topics :hover {
+  color: blanchedalmond;
+}
+b {
+  color: #85b0be;
+}
+.menu {
+  position: fixed;
+}
+/** =============================================================================================
 prayer 
 ===============================================================================================**/
-#prayerbody{
+#prayerbody {
   background-color: black;
-  background-image:url("../background/prayer.jpg");
-  background-repeat:no-repeat;
+  background-image: url("../background/prayer.jpg");
+  background-repeat: no-repeat;
   background-size: 70% 100%;
-  display:absolute;
-background-attachment: fixed;}
-#prayer1 ul li{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  display: relative;
+  background-attachment: fixed;
+}
+#prayer1 ul li {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
   font-size: 18px;
   font-weight: 20px;
   line-height: 30px;
-  color:black; 
+  color: black;
   padding: 3px;
   margin: 38px;
- }
- p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
   font-size: 19pt;
-  color:black; 
+  color: black;
   padding: 3px;
-  margin: 38px;}
-#prayer{
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
- font-style: italic;
- font-size: 40pt;
- color:black;
- margin-left:auto;
- margin-right:auto;
+  margin: 38px;
 }
-#prayer:hover{
- color:#85b0be;
-
+#prayer {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 40pt;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+#prayer:hover {
+  color: #85b0be;
 }
 
-  .sec-prayer:hover{
-    border: 3px solid #85b0be;
-    box-shadow: 0 4px 4px 0 #85b0be;
-  } 
+.sec-prayer:hover {
+  border: 3px solid #85b0be;
+  box-shadow: 0 4px 4px 0 #85b0be;
+}
 .sec-prayer {
   transition: 0.9s;
   width: 70%;
-  margin-left:30%;
-  margin-right:auto;
-  background-color:blanchedalmond;
-  opacity:74%;
-  z-index:-100;}
+  margin-left: 30%;
+  margin-right: auto;
+  background-color: blanchedalmond;
+  opacity: 74%;
+}
+#main-prayer {
+  z-index: -10;
+}
 
-/** =============================================================================================
-media
-===============================================================================================**/
-@media screen and (max-width:768px) {
-  .sidebar a {
-    display: block;
-    position: relative;
-    color: #fff;
-    padding:10px;
-    transition: 0.3s;
-    font-size: 14px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-  }
-    .sidebar{
-      margin: 300px;
-      padding: 300px;
-      list-style: none;
-    position: absolute;
-    display:flex;
-    color: blanchedalmond;
-   
-    
-  }
-  #Sidebar{
-    background-color:grey;
-    z-index: 1000;
-  }
-  .menu{
-    color:black;
-    background-color: azure;
-    width:5ch;
-    height:0.5ch;
-    margin-left:0.1ch;
-    margin-top:0.3ch;
-    z-index: 999;
-    margin-left: 2px;
-  }
-    
-    #Name a{
-      text-decoration: none;
-      float:right;
-      margin-right: 10px;
-      font-size:20px;
-    }
-    #Name{
-      height: 2ch;
-    }
+/*--------------------------------------------------------------
+# hashtag of the week
+--------------------------------------------------------------*/
+.hashtag8 {
+  margin-left: 20px;
+}
+.featured img {
+  border-radius: 0;
+}
 
-    #prayer ul {
-      padding:1px
-    }
-    .sec-prayer {
-      transition: 0.9s;
-      width: 100%;
-      margin-left:0%;
-      margin-right:auto;
-      background-color:blanchedalmond;
-      opacity:74%;
-      z-index:-100;}
+.featured .card {
+  border: 0;
+  text-align: ceneter;
+}
+.featured .card-text {
+  font-size: 18px;
+  font-weight: 20px;
+  line-height: 30px;
+}
+
+.featured .card-body {
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+.featured .card-hashtag a {
+  font-weight: 600;
+  font-size: 18px;
+  color: #052c3f;
+}
+
+.featured .btn {
+  border-radius: 4px;
+  padding: 4px 30px 6px 30px;
+  border: 2px solid #85b0be;
+  color: #85b0be;
+  font-weight: 500;
+}
+
+.featured .btn:hover {
+  background-color: #85b0be;
+  color: #fff;
+}
+.card-img-top {
+  width: 50px;
+  height: 430px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+#featured {
+  margin-left: 12px;
+}
+#weekbody {
+  background-color: wheat;
+  background-image: url("../background/feather.jpg");
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+  display: absolute;
+  background-attachment: fixed;
+}
+/*--------------------------------------------------------------
+# hashtag of the week
+--------------------------------------------------------------*/
+.headsay {
+  margin-left: 25px;
+}
+.subheadsay {
+  margin-left: 25px;
+}
+#bodysay {
+  background-color: black;
+  background-image: url("../background/pinkrose2.jpg");
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+  display: absolute;
+  background-attachment: fixed;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #85b0be;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: wheat;
+}
+
+.containersay {
+  border-radius: 5px;
+  background-color: blanchedalmond;
+  padding: 20px;
+  margin: 30px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/* county*/
+/*the container must be positioned relative:*/
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: #85b0be !important;
+  color: #ffffff;
+}
+
+.footer {
+  /* background-color: var(--col4-color); */
+  color: white;
+  text-align: center;
+  font-weight: 30px;
+  z-index: 100;
+  margin-top: 20px;
+}
+
+.footer-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.footer-social {
+  margin-bottom: 30px;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  color: white;
+  margin: 0 20px;
+}
+.footer-para {
+  color: white;
 }

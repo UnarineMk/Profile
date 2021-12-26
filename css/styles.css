@@ -8,8 +8,9 @@
 /*=== colours css====*/
 :root {
   --col-color: purple;
-  --col3-color: blue;
+  --col3-color: #f4dc00;
   --col5-color: lime;
+  --col3-color: blue;
 }
 
 /*=== body css focus===*/
@@ -310,6 +311,10 @@ img {
   display: flex;
   align-items: center;
 }
+.figma-icon {
+  background-color: blue;
+  border-radius: 10%;
+}
 .skillsbar {
   position: absolute;
   left: 0;
@@ -371,10 +376,11 @@ img {
 .add-cart {
   position: absolute;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.726);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in;
+  transform: var(--big-font-size);
+  font-weight: 30px;
+  font-family: cursive;
   opacity: 0;
-  border-radius: 50%;
   cursor: pointer;
   text-align: center;
 }
@@ -391,8 +397,8 @@ img {
   width: fit-content;
   height: fit-content;
   text-decoration: none;
-  font-size: 17px;
-  color: var(--col-color);
+  font-size: 30px;
+  color: black;
 }
 /*=====================contact=============*/
 .contact-input {
@@ -423,7 +429,7 @@ img {
   font-weight: var(--font-semi);
   padding: 2rem 0;
 }
-footer-title {
+.footer-title {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
 }
