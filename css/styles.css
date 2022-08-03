@@ -336,6 +336,10 @@ img {
 .skillsmssms {
   width: 70%;
 }
+
+.skillstwc {
+  width: 60%;
+}
 .skillsbs {
   width: 80%;
 }
@@ -388,14 +392,21 @@ img {
 .workimg:hover .cart2,
 .workimg:hover .cart3,
 .workimg:hover .cart4,
-.workimg:hover .cart5 {
+.workimg:hover .cart5,
+.workimg:hover .cart6,
+.workimg:hover .cart7,
+.workimg:hover .cart8,
+.workimg:hover .cart9,
+.workimg:hover .cart10,
+.workimg:hover .cart11,
+.workimg:hover .cart12 {
   top: 0;
   left: 0;
   position: absolute;
   opacity: 1;
   padding: 10px;
-  width: fit-content;
-  height: fit-content;
+  width: 100%;
+  height: 1000px;
   text-decoration: none;
   font-size: 30px;
   color: black;
